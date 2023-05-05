@@ -1,0 +1,360 @@
+* {
+    background-color: #E5E5E5;
+}
+
+.contenedor {
+  overflow: hidden;
+    
+}
+  .paragraph{
+    display: none;
+  }
+  .paragraph-2{
+    display: none;
+  }
+
+
+.div-izquierdo {
+  width: 45%;
+  margin: 10px;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 85vh;
+  float: left;
+}
+
+
+.img-radius {
+  border-radius: 3%;
+  width: 100%;
+  height: 93vh;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.div-derecho {
+  position: relative;
+  width: 25%;
+  float: right;
+  margin: 10px;
+  margin-right: 6%;
+  height:91vh;
+  background-color: #ffffff;
+  border-radius: 3%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E5E5E5;
+  background-color: #E5E5E5;
+  padding: 30px;
+  width: 100%;
+  height: 70%;
+}
+
+
+#input-text {
+  flex: 1;
+  border: none;
+  resize: none;
+  line-height: 1.5;
+  outline: none;
+  margin-bottom: 10px;
+  color: #0A3871;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8em;
+  line-height: 150%;
+}
+
+.my-input::placeholder {
+  color: #0A3871;
+}
+.text-two{
+  color: #495057;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 8em;
+  background-color: #ffffff;
+  max-width: 500px;
+  word-wrap: break-word;
+  margin: 5%;
+}
+
+.button-one {
+  background-color: #0A3871; 
+  border: none; 
+  color: white; 
+  padding: 24px; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 4em; /* tamaño de fuente */
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 20px; 
+  width: 40%;
+  text-align: center; 
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.button-two {
+  background-color: #D8DFE8; 
+  border: 2px solid #0A3871;
+  color: #0A3871; 
+  padding: 24px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 4em; /* tamaño de fuente */
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 20px; 
+  width: 40%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.button-tree{
+  background-color: #FFFFFF; 
+  border: 2px solid #0A3871;
+  color: #0A3871; 
+  text-align: center; 
+  text-decoration: none; 
+  font-size: 4em; 
+  margin: 10px 2px; 
+  cursor: pointer; 
+  border-radius: 20px; 
+  width: 40%;
+  height: 10vh;
+  position: absolute;
+  bottom: 0; /* Alinea el botón en la parte inferior del contenedor */
+  left: 50%; /* Alinea el botón en el centro horizontal del contenedor */
+  transform: translate(-50%, -20%);
+}
+
+@media (max-width: 2650px) {
+
+  #input-text {
+    font-size: 3em;
+  }
+  .button-one {
+    font-size: 2em; 
+  }
+  
+  .button-two {
+    font-size: 2em; 
+  }
+  .button-tree {
+    font-size: 2em; 
+  }
+  .text-two{
+    font-size: 3em;
+  }
+  .div-derecho {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1219px) {
+  #input-text{
+    font-size: 2em;
+  }
+  .button-one{
+    font-size: 1em;
+  }
+  .button-two{
+    font-size: 1em;
+  }
+  .button-tree{
+    font-size: 1em;
+  }
+  .div-derecho {
+    width: 35%;
+}
+}
+@media (max-width: 768px) {
+  .div-izquierdo {
+    width: 80%;
+    margin: 10px;
+    margin-left: 5%;
+    margin-top: 10%;
+    height: 55vh; 
+    float: left;
+}
+  .text {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+    padding: 40px;
+    padding-right: 0px;
+    height: 50vh;
+  }
+  #input-text {
+    flex: 1;
+    border: none;
+    resize: none;
+    line-height: 1.5;
+    outline: none;
+    margin-bottom: 10px;
+    color: #0A3871;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+  }
+  .my-input::placeholder {
+    color: #0A3871;
+  }
+  .button-one {
+    background-color: #0A3871; 
+    border: none; 
+    color: white; 
+    padding: 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; /* tamaño de fuente */
+    margin: 20px 2px; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    width: 40%;
+    height: 67px;
+    margin-left: 15%;
+    margin-right: 0%;
+  }
+  .button-two {
+    background-color: #D8DFE8; 
+    border: 2px solid #0A3871;
+    color: #0A3871; 
+    padding: 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; /* tamaño de fuente */
+    margin: 20px 2px; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    width: 40%;
+    height: 67px;
+    margin-left: 2%;
+    margin-right: 0%;
+  }
+  
+  .div-derecho{
+    width: 70%;
+    margin-right: 15%;
+    height: 15vh;
+    margin-left: 15%;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-radius {
+    display: none;
+    
+  }
+
+  .paragraph{
+    display: flex;
+    background: #FFFFFF;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    display: block;
+    text-align: center;
+  }
+
+  .paragraph-2{
+    display: flex;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
+    text-align: center;
+  }
+  .text-two{
+    color: #495057;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    background-color: #ffffff;
+    max-width: 500px;
+    word-wrap: break-word;
+    margin: 5%;
+  }
+  .button-tree{
+    background-color: #FFFFFF; 
+    border: 2px solid #0A3871;
+    color: #0A3871; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; 
+    margin: 50px 2px 10px 2px; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    width: 40%;
+    height: 67px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .div-izquierdo {
+    width: 90%;
+    margin: 4%;
+    margin-top: 10%;
+    height: 55vh;
+    float: left;
+  }
+  .text{
+    padding: 0;
+  }
+  #input-text{
+    height: 60px;
+    height: auto;
+    overflow: hidden;
+  }
+  .button-one{
+    width: 90%;
+    margin: 0 5% 10px 5%;
+  }
+  .button-two{
+    width: 90%;
+    margin: 0 5% 10px 5%;
+  }
+  .div-derecho{
+    width: 80%;
+    margin-right: 10%;
+    height: 25vh;
+    margin-left: 10%;
+    margin-top: 120px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .paragraph-2{
+    margin: 0 10% 0 10%;
+  }
+  .button-tree{
+    width: 90%;
+  }
+}
+  
+  
+  
+  
+  
+

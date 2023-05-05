@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <container class="contenedor">
+        <div class="div-izquierdo">
+            <div class="text">
+                <textarea id="input-text" class="my-input" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <button onclick="encrypter()" class="button-one">Encriptar</button>
+            <button onclick="decrypt()" class="button-two">Desencriptar</button>
+        </div>
+        <div class="div-derecho" id="div-derecho">
+            <img src="Captura.PNG" class="img-radius" id="img">
+            <h2 class="paragraph">ningun mensaje fue encontrado</h2>
+            <p class="paragraph-2">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+    </container>
+</body>
+<script src="script.js"></script>
+</html>
+
